@@ -38,3 +38,12 @@ SQLに関するプログラミングノートです。
    
      カラムをGroupにすることができる
      注意点としては、SLECTで指定したカラムしか取得することができませんん。
+     
+     
+   サブクエリ
+      クエリの中にもう一つのクエリを書くこと
+   
+      SLECT * FROM tabeles WHERE name = (
+      
+      SLECT name FROM tacles WHERE height >=150
+      )
