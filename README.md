@@ -112,6 +112,9 @@ SQLに関するプログラミングノートです。
  
  mysql> SELECT CONCAT(name, '選手のポジションは', position, 'はです')
      -> FROM players;
+     
+     
+     ⚠SQLでの文字列リテラルは「シングルクォート」で括るというルール
    
    　
       
